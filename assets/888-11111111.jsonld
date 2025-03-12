@@ -11,7 +11,7 @@
     }
   },
   "cargo:carrierDeclarationDate": {
-    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@type": "xsd:dateTime",
     "@value": "2021-03-10T00:00:00"
   },
   "cargo:carrierDeclarationPlace": {
@@ -26,7 +26,7 @@
   },
   "cargo:carrierDeclarationSignature": "MARK USER",
   "cargo:customsOriginCode": {
-    "@id": "_:N9e7a4e2ce054457799b0f3039bd9ac5d",
+    "@id": "_:Na91ec861e59a4c3fb9810c7bd15c6fce",
     "@type": "cargo:CodeListElement",
     "cargo:code": "X"
   },
@@ -41,175 +41,175 @@
     "cargo:locationType": "Airport"
   },
   "cargo:otherCharges": {
-    "@id": "_:other-charge-5974",
+    "@id": "_:other-charge-3793",
     "@type": "cargo:OtherCharge",
     "cargo:chargePaymentType": {
-      "@id": "https://onerecord.iata.org/ns/code-lists/PrepaidCollectIndicator#P"
+      "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/PrepaidCollectIndicator#P"
     },
     "cargo:entitlement": {
-      "@id": "https://onerecord.iata.org/ns/code-lists/EntitlementCode#C"
+      "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/EntitlementCode#C"
     },
     "cargo:otherChargeAmount": {
-      "@id": "_:N19a7d5385b07448c87b522fae93b6be7",
+      "@id": "_:N07946378f9df45879f34eb128716ceb7",
       "@type": "cargo:CurrencyValue",
       "cargo:currencyCode": {
-        "@id": "https://onerecord.iata.org/ns/code-lists/CurrencyCode#EUR"
+        "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/CurrencyCode#EUR"
       },
       "cargo:numericalValue": 1234.56
     },
     "cargo:otherChargeCode": {
-      "@id": "https://onerecord.iata.org/ns/code-lists/OtherChargeCode#MC"
+      "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/OtherChargeCode#MC"
     }
   },
   "cargo:shipment": {
-    "@id": "_:shipment-5131",
+    "@id": "_:shipment-4232",
     "@type": "cargo:Shipment",
     "cargo:customsInformation": [
       {
-        "@id": "_:Nea471914986d4c53ac64d8c4ad39195b",
+        "@id": "_:N48147ab3272d41578b75ab2659b6b4ce",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N3512be57318442b99affb1cbfa8fd8a4",
+          "@id": "_:N88728a0cd48744cb9160426b3673c106",
           "@type": "cargo:CodeListElement",
           "cargo:code": "T"
         },
         "cargo:country": {
-          "@id": "_:Ne46ac1a1312d4e3f8d6f6fa2016a7c61",
+          "@id": "_:N25d9215c2e4a4382b628a90793cb3082",
           "@type": "cargo:CodeListElement",
           "cargo:code": "IE"
         },
         "cargo:note": "IE1234567N",
         "cargo:subjectCode": {
-          "@id": "_:N84c66157932d4320a009229743075685",
+          "@id": "_:Nc7107685246649a48fb045604c2c5d00",
           "@type": "cargo:CodeListElement",
           "cargo:code": "SHP"
         }
       },
       {
-        "@id": "_:Ne052254193144caf92344ecd7bfb2f50",
+        "@id": "_:Nb5a0eaa994a441fb901a98ac0fc6c94c",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N197560711dfb4c7db7287ca32820b117",
+          "@id": "_:Na51e504aba924d2b9980a8b63e67bebf",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CP"
         },
         "cargo:country": {
-          "@id": "_:Nb646d8e3e28143cba43f871be9b00459",
+          "@id": "_:N553bda02da794fb6bf0f93e64d94db1e",
           "@type": "cargo:CodeListElement",
           "cargo:code": "IE"
         },
         "cargo:note": "HILDA HILARIOUS",
         "cargo:subjectCode": {
-          "@id": "_:Nb9858e3e8b62426f86541cb037ff66fb",
+          "@id": "_:Nc328864024d74a48a05c14b3e0d465c1",
           "@type": "cargo:CodeListElement",
           "cargo:code": "SHP"
         }
       },
       {
-        "@id": "_:Nc427a169ec9c49f3b18bfb40caa554a8",
+        "@id": "_:Nffcb67343c824fc1996f07c1407b1468",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N15bc42d10e43466eba24e3c89264ee4d",
+          "@id": "_:N98c151ee957245acad9e69fd427169e6",
           "@type": "cargo:CodeListElement",
           "cargo:code": "T"
         },
         "cargo:country": {
-          "@id": "_:Nb2a80a43d5c04864805e2b46d87236fb",
+          "@id": "_:N47f7af02ba5b4433b1c0e586f3be5839",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CN"
         },
         "cargo:note": "USCI1234567812345678X7",
         "cargo:subjectCode": {
-          "@id": "_:Nbc1dc008607b4b0cbc91f075c913ba5e",
+          "@id": "_:N4491f533dd1b459a8c339428b561a802",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CNE"
         }
       },
       {
-        "@id": "_:Nd49cbf125d98422180679e17b8f8ba41",
+        "@id": "_:N44b058e5aabf46cf9f7d87319e6a630c",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N2e9bc1093c414dcab9a7c8a6058b3a47",
+          "@id": "_:Ne04d96c138284278844f9a90f430fed8",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CP"
         },
         "cargo:country": {
-          "@id": "_:Nd14e49cec2c548f5a5b3e37917057adc",
+          "@id": "_:N2de0e7c51aad4c97ad2e3c3c85b0ba69",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CN"
         },
         "cargo:note": "PAUL PERSON",
         "cargo:subjectCode": {
-          "@id": "_:N8070deca65d94113b7d6967d59feffef",
+          "@id": "_:N277debbc05dc4aff8d8901a8f3702e98",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CNE"
         }
       },
       {
-        "@id": "_:N72f6de68b7c141fa804be59d06f8f44d",
+        "@id": "_:Nd7eee4ddbd4e4b098eed00ea2eb83705",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:Ndd04b5aa24fc4b7ea79d15604bb3514c",
+          "@id": "_:Neaebb2dd5ba14effaa66436f83817172",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CT"
         },
         "cargo:country": {
-          "@id": "_:N3d59a8a510da4e00bd4d58936007887f",
+          "@id": "_:Ne7bd5512ccb14ebaa88adc4be8747fdf",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CN"
         },
         "cargo:note": "862123454321",
         "cargo:subjectCode": {
-          "@id": "_:N4afe08cd8c7c4c4f9d6b52ab6f2bd06c",
+          "@id": "_:N08fa3dd0ef51476fb9e14fabbce62cc9",
           "@type": "cargo:CodeListElement",
           "cargo:code": "CNE"
         }
       },
       {
-        "@id": "_:Nc0f456bf5ad54e79afe28ec10a5fec80",
+        "@id": "_:Ne7760ed154d049d2849b0cf84bea719d",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N59c8e6e546264dd79b445dd4133378eb",
+          "@id": "_:N9edd244891e741b3b3e5d538b754e246",
           "@type": "cargo:CodeListElement",
           "cargo:code": "RA"
         },
         "cargo:country": {
-          "@id": "_:Ned2dd167fcb647b8817cfa24779ca202",
+          "@id": "_:N3f880e99917343f989552266256d4fc9",
           "@type": "cargo:CodeListElement",
           "cargo:code": "IE"
         },
         "cargo:note": "01234-01",
         "cargo:subjectCode": {
-          "@id": "_:N003034a76cb34f24b80e9a983a21d3de",
+          "@id": "_:N4db126fbec3f450a95ebee358a7fd4dc",
           "@type": "cargo:CodeListElement",
           "cargo:code": "ISS"
         }
       },
       {
-        "@id": "_:N5263e31c9b9c4ee9b734ee847d745af5",
+        "@id": "_:N36ae81537994443c9ff7b8dc6246b80e",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N7f85a980c7fb4ae49bf9d8a9b80a25ef",
+          "@id": "_:N5e8bffb4290b4764ae4a9b1f3f1b8a02",
           "@type": "cargo:CodeListElement",
           "cargo:code": "ED"
         },
         "cargo:note": "1299"
       },
       {
-        "@id": "_:N36ba07e8a96246e698bdf0c3c72051fc",
+        "@id": "_:Na547d4d91ab542bb84c8c13b62f1c40a",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:Ne1d1b506069d4dfa9c2807afceec00ef",
+          "@id": "_:N16bbf440cd194cc098ffe873e907312f",
           "@type": "cargo:CodeListElement",
           "cargo:code": "SN"
         },
         "cargo:note": "MR. SECURITY OFFICER"
       },
       {
-        "@id": "_:Nf55b64108d7b475bb06c38ad331ec80a",
+        "@id": "_:N3589d77eee40410399b5d2849c334f05",
         "@type": "cargo:CustomsInformation",
         "cargo:contentCode": {
-          "@id": "_:N4ff0a8d47c704c868a8fe7b880596abc",
+          "@id": "_:N46bbcca4e4354e21842d279040ab98ca",
           "@type": "cargo:CodeListElement",
           "cargo:code": "SD"
         },
@@ -218,25 +218,25 @@
     ],
     "cargo:involvedParties": [
       {
-        "@id": "_:N22a15e8755df43558ed409b9e1d43410",
+        "@id": "_:Nedbb1269b1fb461a9cce8593fe6d8725",
         "@type": "cargo:Party",
         "cargo:otherIdentifiers": {
-          "@id": "_:N1ac1052a3e704f8a93165f79a3871c28",
+          "@id": "_:N228826360de74359a8487a1e76b729b4",
           "@type": "cargo:OtherIdentifier",
           "cargo:otherIdentifierType": "Consignor Account number",
           "cargo:textualValue": "SHP_ACCOUNT_NO_1234"
         },
         "cargo:partyDetails": {
-          "@id": "_:company-5499",
+          "@id": "_:company-1395",
           "@type": "cargo:Company",
           "cargo:basedAtLocation": {
-            "@id": "_:location-8106",
+            "@id": "_:location-1966",
             "@type": "cargo:Location",
             "cargo:address": {
-              "@id": "_:N39da03cc67414dfc93854d30372bfe9b",
+              "@id": "_:N1a0ba3644dcc4baca239c07b7187cbb9",
               "@type": "cargo:Address",
               "cargo:cityCode": {
-                "@id": "_:N9fdadb31a6624cd89517a2cf041dbdd3",
+                "@id": "_:Ncd64ef49eb6d44c5b0dcc7305033e80f",
                 "@type": "cargo:CodeListElement",
                 "cargo:code": "None",
                 "cargo:codeDescription": "LITTLE CITY"
@@ -246,10 +246,10 @@
             }
           },
           "cargo:contactPersons": {
-            "@id": "_:person-7368",
+            "@id": "_:person-7518",
             "@type": "cargo:Person",
             "cargo:contactDetails": {
-              "@id": "_:N80dd296a2638446e82934ef32e3d4081",
+              "@id": "_:Nabc60edb3fe14d0495f5ccd12075b917",
               "@type": "cargo:ContactDetail",
               "cargo:contactDetailType": {
                 "@id": "https://onerecord.iata.org/ns/cargo#ContactDetailType#PHONE_NUMBER"
@@ -260,29 +260,29 @@
           "cargo:name": "FORWARDER COMPANY IRELAND LTD"
         },
         "cargo:partyRole": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/ParticipantIdentifier#SHP"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ParticipantIdentifier#SHP"
         }
       },
       {
-        "@id": "_:Nd04bb29f47554f9fa0ded6af3be86820",
+        "@id": "_:Nb225aa73197a42acb5755ce3b208fe64",
         "@type": "cargo:Party",
         "cargo:partyDetails": {
-          "@id": "_:company-8708",
+          "@id": "_:company-7908",
           "@type": "cargo:Company",
           "cargo:basedAtLocation": {
-            "@id": "_:location-6439",
+            "@id": "_:location-8169",
             "@type": "cargo:Location",
             "cargo:address": {
-              "@id": "_:Nfa2edde4ab214d82bf8756a6fc43a960",
+              "@id": "_:Necdc4cdf666541ca8f4ee57573ca24f9",
               "@type": "cargo:Address",
               "cargo:cityCode": {
-                "@id": "_:N398a8e5547d14cdcb226718e68f5d4c8",
+                "@id": "_:Na6b29bd09dd54398a950da0ab9e688ea",
                 "@type": "cargo:CodeListElement",
                 "cargo:code": "None",
                 "cargo:codeDescription": "SHANGHAI"
               },
               "cargo:country": {
-                "@id": "_:Nb7595c6139084f60a0eb2261bd4e7a55",
+                "@id": "_:N1f854efc19154a63a521801000ecc259",
                 "@type": "cargo:CodeListElement",
                 "cargo:code": "CN",
                 "cargo:codeDescription": "People's Republic of China"
@@ -291,10 +291,10 @@
             }
           },
           "cargo:contactPersons": {
-            "@id": "_:person-1742",
+            "@id": "_:person-9038",
             "@type": "cargo:Person",
             "cargo:contactDetails": {
-              "@id": "_:Nafde1a84389147918fb044ca361f60e8",
+              "@id": "_:N994e8a1b27d14258ae386667b13e7d07",
               "@type": "cargo:ContactDetail",
               "cargo:contactDetailType": {
                 "@id": "https://onerecord.iata.org/ns/cargo#ContactDetailType#PHONE_NUMBER"
@@ -305,26 +305,26 @@
           "cargo:name": "FORWARDER COMPANY SHANGHAI LTD\nROOM 123 SPECIAL BUILDING. NR 987"
         },
         "cargo:partyRole": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/ParticipantIdentifier#CNE"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ParticipantIdentifier#CNE"
         }
       },
       {
-        "@id": "_:N166dff0a92fd4631917a037ad36c67df",
+        "@id": "_:Nb237055e28764405ae81e061dfdfcb6c",
         "@type": "cargo:Party",
         "cargo:otherIdentifiers": {
-          "@id": "_:N4f665938d39c4acd96e3a3ddfe065a15",
+          "@id": "_:N1c2283c9500340ff8bdf9054bba84889",
           "@type": "cargo:OtherIdentifier",
           "cargo:otherIdentifierType": "Freight Forwarder Account number",
           "cargo:textualValue": "87654321"
         },
         "cargo:partyDetails": {
-          "@id": "_:company-9682",
+          "@id": "_:company-4025",
           "@type": "cargo:Company",
           "cargo:contactPersons": {
-            "@id": "_:person-5956",
+            "@id": "_:person-8988",
             "@type": "cargo:Person",
             "cargo:contactDetails": {
-              "@id": "_:N252cccf8f1ef47f784288f7057a00ee1",
+              "@id": "_:Nadbfe84a3f4340fc94ab6d18cf265879",
               "@type": "cargo:ContactDetail",
               "cargo:contactDetailType": {
                 "@id": "https://onerecord.iata.org/ns/cargo#ContactDetailType#PHONE_NUMBER"
@@ -337,7 +337,7 @@
           "cargo:name": "FORWARDER COMPANY IRELAND LIMITED"
         },
         "cargo:partyRole": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/ParticipantIdentifier#FFW"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ParticipantIdentifier#FFW"
         }
       }
     ],
@@ -349,44 +349,44 @@
           "@id": "_:product-hs000111",
           "@type": "cargo:Product",
           "cargo:hsCode": {
-            "@id": "_:N842945980a874c71862653f5039be1dc",
+            "@id": "_:Nc186b36ee8034e18890539e9fe0146f3",
             "@type": "cargo:CodeListElement",
             "cargo:code": "000111"
           },
           "cargo:skeletonIndicator": true
         },
         "cargo:dimensions": {
-          "@id": "_:N876698284f7b47e9a855484fb3b1f9c8",
+          "@id": "_:N066c92eb581e4e55b6f3bd85acb77529",
           "@type": "cargo:Dimensions",
           "cargo:height": {
-            "@id": "_:N4c5764997cf5426f94bbf8931c48ddbc",
+            "@id": "_:Nb1eb49a4ff574041b1266f67cae8fcf7",
             "@type": "cargo:Value",
             "cargo:numericalValue": 96.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:length": {
-            "@id": "_:Nf37460d945b54580864eb081ffe9e276",
+            "@id": "_:N9215c98a016e4d27a7ae27ad393fd9cb",
             "@type": "cargo:Value",
             "cargo:numericalValue": 120.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:width": {
-            "@id": "_:N2d3292500f4a433580e50cc8c4e2961b",
+            "@id": "_:N9c551de2fd8b496896c16f95faaceb37",
             "@type": "cargo:Value",
             "cargo:numericalValue": 80.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           }
         },
         "cargo:goodsDescription": "CONSOLIDATION\nAS PER ATTACHED\nMANIFEST\nSECURE CARGO\nNOT RESTRICTED\nAIRLINE PHARMA\nSERVICE",
         "cargo:involvedInActions": [
           {
-            "@id": "_:loading-4952",
+            "@id": "_:loading-2244",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-0",
@@ -412,22 +412,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:N2c08e312d165429091961a49a87669c2",
+                "@id": "_:N8b1258c0f3964894b8aa8d24c8f3b44f",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-10T00:00:00"
                 }
               },
@@ -438,7 +438,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -449,7 +449,7 @@
             }
           },
           {
-            "@id": "_:loading-6021",
+            "@id": "_:loading-3973",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-1",
@@ -475,22 +475,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:Nfe0ac071d4d84e889737f3032167d6ba",
+                "@id": "_:N0a985b61f9b140009e5594f52f503ed8",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-12T00:00:00"
                 }
               },
@@ -501,7 +501,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -515,7 +515,7 @@
         "cargo:skeletonIndicator": true,
         "cargo:slac": 333,
         "cargo:specialHandlingCodes": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/SpecialHandlingCode#NSC"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/SpecialHandlingCode#NSC"
         },
         "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE"
       },
@@ -526,44 +526,44 @@
           "@id": "_:product-hs000111",
           "@type": "cargo:Product",
           "cargo:hsCode": {
-            "@id": "_:N842945980a874c71862653f5039be1dc",
+            "@id": "_:Nc186b36ee8034e18890539e9fe0146f3",
             "@type": "cargo:CodeListElement",
             "cargo:code": "000111"
           },
           "cargo:skeletonIndicator": true
         },
         "cargo:dimensions": {
-          "@id": "_:N6cdcaa6b4fa846c58c93ed6b8723d54e",
+          "@id": "_:Ne23c232b6731450eba58c428613f2a30",
           "@type": "cargo:Dimensions",
           "cargo:height": {
-            "@id": "_:Ndeba58811e174e549e893b7d07904c15",
+            "@id": "_:N2f87b20032a54b87b05fcc2b0395c56a",
             "@type": "cargo:Value",
             "cargo:numericalValue": 96.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:length": {
-            "@id": "_:Nc77f97daf54941e1b31a13c534163f03",
+            "@id": "_:N3bca0f414b0b4e1d9977126257810d85",
             "@type": "cargo:Value",
             "cargo:numericalValue": 120.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:width": {
-            "@id": "_:N4996752424f146dc8de2ebf1fc1261e4",
+            "@id": "_:Nfc39c3dd678d4e18a5391068af827776",
             "@type": "cargo:Value",
             "cargo:numericalValue": 80.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           }
         },
         "cargo:goodsDescription": "CONSOLIDATION\nAS PER ATTACHED\nMANIFEST\nSECURE CARGO\nNOT RESTRICTED\nAIRLINE PHARMA\nSERVICE",
         "cargo:involvedInActions": [
           {
-            "@id": "_:loading-4338",
+            "@id": "_:loading-8915",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-0",
@@ -589,22 +589,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:N2c08e312d165429091961a49a87669c2",
+                "@id": "_:N8b1258c0f3964894b8aa8d24c8f3b44f",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-10T00:00:00"
                 }
               },
@@ -615,7 +615,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -626,7 +626,7 @@
             }
           },
           {
-            "@id": "_:loading-8562",
+            "@id": "_:loading-8699",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-1",
@@ -652,22 +652,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:Nfe0ac071d4d84e889737f3032167d6ba",
+                "@id": "_:N0a985b61f9b140009e5594f52f503ed8",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-12T00:00:00"
                 }
               },
@@ -678,7 +678,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -691,7 +691,7 @@
         ],
         "cargo:skeletonIndicator": true,
         "cargo:specialHandlingCodes": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/SpecialHandlingCode#NSC"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/SpecialHandlingCode#NSC"
         },
         "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE"
       },
@@ -702,44 +702,44 @@
           "@id": "_:product-hs000111",
           "@type": "cargo:Product",
           "cargo:hsCode": {
-            "@id": "_:N842945980a874c71862653f5039be1dc",
+            "@id": "_:Nc186b36ee8034e18890539e9fe0146f3",
             "@type": "cargo:CodeListElement",
             "cargo:code": "000111"
           },
           "cargo:skeletonIndicator": true
         },
         "cargo:dimensions": {
-          "@id": "_:N9b6799eeaa294d018f16da91fdda5bb7",
+          "@id": "_:Nccae3d2460294492b1c73d938e140c31",
           "@type": "cargo:Dimensions",
           "cargo:height": {
-            "@id": "_:N072d33b5fc7d4401be5e02b07063e3a5",
+            "@id": "_:N76c8f767775e4f6cb48534b4c48697c3",
             "@type": "cargo:Value",
             "cargo:numericalValue": 79.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:length": {
-            "@id": "_:N97b01e17674d468ca2b60619addea090",
+            "@id": "_:N96d9b889c2f74d9f90a90356b17d9023",
             "@type": "cargo:Value",
             "cargo:numericalValue": 120.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:width": {
-            "@id": "_:N862f91c4f6db4f09bd9bc301b2b59f76",
+            "@id": "_:N55d9ad4f6ff540a58adf97fceba50699",
             "@type": "cargo:Value",
             "cargo:numericalValue": 80.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           }
         },
         "cargo:goodsDescription": "CONSOLIDATION\nAS PER ATTACHED\nMANIFEST\nSECURE CARGO\nNOT RESTRICTED\nAIRLINE PHARMA\nSERVICE",
         "cargo:involvedInActions": [
           {
-            "@id": "_:loading-3370",
+            "@id": "_:loading-8682",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-0",
@@ -765,22 +765,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:N2c08e312d165429091961a49a87669c2",
+                "@id": "_:N8b1258c0f3964894b8aa8d24c8f3b44f",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-10T00:00:00"
                 }
               },
@@ -791,7 +791,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -802,7 +802,7 @@
             }
           },
           {
-            "@id": "_:loading-4441",
+            "@id": "_:loading-4585",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-1",
@@ -828,22 +828,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:Nfe0ac071d4d84e889737f3032167d6ba",
+                "@id": "_:N0a985b61f9b140009e5594f52f503ed8",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-12T00:00:00"
                 }
               },
@@ -854,7 +854,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -867,51 +867,51 @@
         ],
         "cargo:skeletonIndicator": true,
         "cargo:specialHandlingCodes": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/SpecialHandlingCode#NSC"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/SpecialHandlingCode#NSC"
         },
         "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE"
       }
     ],
     "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE",
     "cargo:totalDimensions": {
-      "@id": "_:N8dc171bbd26d4075bb407e86513f5b2c",
+      "@id": "_:Nbf5a1d83797e43029787f264d79ded7c",
       "@type": "cargo:Dimensions",
       "cargo:volume": {
-        "@id": "_:N4c1469f7d4ce4f17ac5e4b7f1aacb996",
+        "@id": "_:Nc9f906c7ec974d7d97b10d1bace59bab",
         "@type": "cargo:Value",
         "cargo:numericalValue": 2.602,
         "cargo:unit": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#MTQ"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#MTQ"
         }
       }
     },
     "cargo:totalGrossWeight": {
-      "@id": "_:N91a032c8283a4ecb9d438c2b4781e872",
+      "@id": "_:Ne334890d37ff4847a924b64f139e1cf3",
       "@type": "cargo:Value",
       "cargo:numericalValue": 1042.0,
       "cargo:unit": {
-        "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#KGM"
+        "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#KGM"
       }
     }
   },
   "cargo:shippingRefNo": "8112345678",
   "cargo:taxAmount": {
-    "@id": "_:N753f5213a8ea4f488a5204aeabbed6c0",
+    "@id": "_:N7b1f066a3a1149faa9545d59d70abca3",
     "@type": "cargo:CurrencyValue",
     "cargo:currencyCode": {
-      "@id": "https://onerecord.iata.org/ns/code-lists/CurrencyCode#EUR"
+      "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/CurrencyCode#EUR"
     },
     "cargo:numericalValue": 11.22
   },
   "cargo:waybillLineItems": {
-    "@id": "_:waybill-line-item-9128",
+    "@id": "_:waybill-line-item-5221",
     "@type": "cargo:WaybillLineItem",
     "cargo:chargeableWeight": {
-      "@id": "_:N618a662d797b444b903345995c57240c",
+      "@id": "_:Nf8a04081f3394996896a9c7790dd1272",
       "@type": "cargo:Value",
       "cargo:numericalValue": 1042.0,
       "cargo:unit": {
-        "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#KGM"
+        "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#KGM"
       }
     },
     "cargo:lineItemNumber": 1,
@@ -923,44 +923,44 @@
           "@id": "_:product-hs000111",
           "@type": "cargo:Product",
           "cargo:hsCode": {
-            "@id": "_:N842945980a874c71862653f5039be1dc",
+            "@id": "_:Nc186b36ee8034e18890539e9fe0146f3",
             "@type": "cargo:CodeListElement",
             "cargo:code": "000111"
           },
           "cargo:skeletonIndicator": true
         },
         "cargo:dimensions": {
-          "@id": "_:N876698284f7b47e9a855484fb3b1f9c8",
+          "@id": "_:N066c92eb581e4e55b6f3bd85acb77529",
           "@type": "cargo:Dimensions",
           "cargo:height": {
-            "@id": "_:N4c5764997cf5426f94bbf8931c48ddbc",
+            "@id": "_:Nb1eb49a4ff574041b1266f67cae8fcf7",
             "@type": "cargo:Value",
             "cargo:numericalValue": 96.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:length": {
-            "@id": "_:Nf37460d945b54580864eb081ffe9e276",
+            "@id": "_:N9215c98a016e4d27a7ae27ad393fd9cb",
             "@type": "cargo:Value",
             "cargo:numericalValue": 120.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:width": {
-            "@id": "_:N2d3292500f4a433580e50cc8c4e2961b",
+            "@id": "_:N9c551de2fd8b496896c16f95faaceb37",
             "@type": "cargo:Value",
             "cargo:numericalValue": 80.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           }
         },
         "cargo:goodsDescription": "CONSOLIDATION\nAS PER ATTACHED\nMANIFEST\nSECURE CARGO\nNOT RESTRICTED\nAIRLINE PHARMA\nSERVICE",
         "cargo:involvedInActions": [
           {
-            "@id": "_:loading-4952",
+            "@id": "_:loading-2244",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-0",
@@ -986,22 +986,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:N2c08e312d165429091961a49a87669c2",
+                "@id": "_:N8b1258c0f3964894b8aa8d24c8f3b44f",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-10T00:00:00"
                 }
               },
@@ -1012,7 +1012,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -1023,7 +1023,7 @@
             }
           },
           {
-            "@id": "_:loading-6021",
+            "@id": "_:loading-3973",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-1",
@@ -1049,22 +1049,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:Nfe0ac071d4d84e889737f3032167d6ba",
+                "@id": "_:N0a985b61f9b140009e5594f52f503ed8",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-12T00:00:00"
                 }
               },
@@ -1075,7 +1075,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -1089,7 +1089,7 @@
         "cargo:skeletonIndicator": true,
         "cargo:slac": 333,
         "cargo:specialHandlingCodes": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/SpecialHandlingCode#NSC"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/SpecialHandlingCode#NSC"
         },
         "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE"
       },
@@ -1100,44 +1100,44 @@
           "@id": "_:product-hs000111",
           "@type": "cargo:Product",
           "cargo:hsCode": {
-            "@id": "_:N842945980a874c71862653f5039be1dc",
+            "@id": "_:Nc186b36ee8034e18890539e9fe0146f3",
             "@type": "cargo:CodeListElement",
             "cargo:code": "000111"
           },
           "cargo:skeletonIndicator": true
         },
         "cargo:dimensions": {
-          "@id": "_:N6cdcaa6b4fa846c58c93ed6b8723d54e",
+          "@id": "_:Ne23c232b6731450eba58c428613f2a30",
           "@type": "cargo:Dimensions",
           "cargo:height": {
-            "@id": "_:Ndeba58811e174e549e893b7d07904c15",
+            "@id": "_:N2f87b20032a54b87b05fcc2b0395c56a",
             "@type": "cargo:Value",
             "cargo:numericalValue": 96.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:length": {
-            "@id": "_:Nc77f97daf54941e1b31a13c534163f03",
+            "@id": "_:N3bca0f414b0b4e1d9977126257810d85",
             "@type": "cargo:Value",
             "cargo:numericalValue": 120.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:width": {
-            "@id": "_:N4996752424f146dc8de2ebf1fc1261e4",
+            "@id": "_:Nfc39c3dd678d4e18a5391068af827776",
             "@type": "cargo:Value",
             "cargo:numericalValue": 80.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           }
         },
         "cargo:goodsDescription": "CONSOLIDATION\nAS PER ATTACHED\nMANIFEST\nSECURE CARGO\nNOT RESTRICTED\nAIRLINE PHARMA\nSERVICE",
         "cargo:involvedInActions": [
           {
-            "@id": "_:loading-4338",
+            "@id": "_:loading-8915",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-0",
@@ -1163,22 +1163,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:N2c08e312d165429091961a49a87669c2",
+                "@id": "_:N8b1258c0f3964894b8aa8d24c8f3b44f",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-10T00:00:00"
                 }
               },
@@ -1189,7 +1189,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -1200,7 +1200,7 @@
             }
           },
           {
-            "@id": "_:loading-8562",
+            "@id": "_:loading-8699",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-1",
@@ -1226,22 +1226,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:Nfe0ac071d4d84e889737f3032167d6ba",
+                "@id": "_:N0a985b61f9b140009e5594f52f503ed8",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-12T00:00:00"
                 }
               },
@@ -1252,7 +1252,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -1265,7 +1265,7 @@
         ],
         "cargo:skeletonIndicator": true,
         "cargo:specialHandlingCodes": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/SpecialHandlingCode#NSC"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/SpecialHandlingCode#NSC"
         },
         "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE"
       },
@@ -1276,44 +1276,44 @@
           "@id": "_:product-hs000111",
           "@type": "cargo:Product",
           "cargo:hsCode": {
-            "@id": "_:N842945980a874c71862653f5039be1dc",
+            "@id": "_:Nc186b36ee8034e18890539e9fe0146f3",
             "@type": "cargo:CodeListElement",
             "cargo:code": "000111"
           },
           "cargo:skeletonIndicator": true
         },
         "cargo:dimensions": {
-          "@id": "_:N9b6799eeaa294d018f16da91fdda5bb7",
+          "@id": "_:Nccae3d2460294492b1c73d938e140c31",
           "@type": "cargo:Dimensions",
           "cargo:height": {
-            "@id": "_:N072d33b5fc7d4401be5e02b07063e3a5",
+            "@id": "_:N76c8f767775e4f6cb48534b4c48697c3",
             "@type": "cargo:Value",
             "cargo:numericalValue": 79.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:length": {
-            "@id": "_:N97b01e17674d468ca2b60619addea090",
+            "@id": "_:N96d9b889c2f74d9f90a90356b17d9023",
             "@type": "cargo:Value",
             "cargo:numericalValue": 120.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           },
           "cargo:width": {
-            "@id": "_:N862f91c4f6db4f09bd9bc301b2b59f76",
+            "@id": "_:N55d9ad4f6ff540a58adf97fceba50699",
             "@type": "cargo:Value",
             "cargo:numericalValue": 80.0,
             "cargo:unit": {
-              "@id": "https://onerecord.iata.org/ns/code-lists/MeasurementUnitCode#CMT"
+              "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MeasurementUnitCode#CMT"
             }
           }
         },
         "cargo:goodsDescription": "CONSOLIDATION\nAS PER ATTACHED\nMANIFEST\nSECURE CARGO\nNOT RESTRICTED\nAIRLINE PHARMA\nSERVICE",
         "cargo:involvedInActions": [
           {
-            "@id": "_:loading-3370",
+            "@id": "_:loading-8682",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-0",
@@ -1339,22 +1339,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:N2c08e312d165429091961a49a87669c2",
+                "@id": "_:N8b1258c0f3964894b8aa8d24c8f3b44f",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-10T00:00:00"
                 }
               },
@@ -1365,7 +1365,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -1376,7 +1376,7 @@
             }
           },
           {
-            "@id": "_:loading-4441",
+            "@id": "_:loading-4585",
             "@type": "cargo:Loading",
             "cargo:servedActivity": {
               "@id": "_:transportmovement-1",
@@ -1402,22 +1402,22 @@
                 "cargo:locationType": "Airport"
               },
               "cargo:modeCode": {
-                "@id": "https://onerecord.iata.org/ns/code-lists/ModeCode#AIR_TRANSPORT"
+                "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/ModeCode#AIR_TRANSPORT"
               },
               "cargo:modeQualifier": {
                 "@id": "cargo:MAIN_CARRIAGE"
               },
               "cargo:movementTimes": {
-                "@id": "_:Nfe0ac071d4d84e889737f3032167d6ba",
+                "@id": "_:N0a985b61f9b140009e5594f52f503ed8",
                 "@type": "cargo:MovementTime",
                 "cargo:movementMilestone": {
-                  "@id": "https://onerecord.iata.org/ns/code-lists/MovementIndicator#SD"
+                  "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/MovementIndicator#SD"
                 },
                 "cargo:movementTimeType": {
                   "@id": "cargo:SCHEDULED"
                 },
                 "cargo:movementTimestamp": {
-                  "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                  "@type": "xsd:dateTime",
                   "@value": "2021-03-12T00:00:00"
                 }
               },
@@ -1428,7 +1428,7 @@
                   "@id": "_:carrier-XX",
                   "@type": "cargo:Carrier",
                   "cargo:airlineCode": {
-                    "@id": "_:N8438255f37ff47d6840c9869a7882e64",
+                    "@id": "_:Nb9c020384eec49cfa9b21185f21e504c",
                     "@type": "cargo:CodeListElement",
                     "cargo:code": "XX"
                   }
@@ -1441,23 +1441,27 @@
         ],
         "cargo:skeletonIndicator": true,
         "cargo:specialHandlingCodes": {
-          "@id": "https://onerecord.iata.org/ns/code-lists/SpecialHandlingCode#NSC"
+          "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/SpecialHandlingCode#NSC"
         },
         "cargo:textualHandlingInstructions": "4 PALLETS TEMPERATURE CONTROL 15 TO 25 DEGREES CELSIUS HANDLE WITH CARE"
       }
     ],
     "cargo:rateCharge": 4.44,
     "cargo:rateClassCode": {
-      "@id": "https://onerecord.iata.org/ns/code-lists/RateClassCode#Q"
+      "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/RateClassCode#Q"
     }
   },
   "cargo:waybillNumber": "11111111",
   "cargo:waybillPrefix": "888",
+  "cargo:waybillType": {
+    "@id": "cargo:MASTER"
+  },
   "cargo:weightValuationIndicator": {
-    "@id": "https://onerecord.iata.org/ns/code-lists/PrepaidCollectIndicator#C"
+    "@id": "https://onerecord.iata.org/ns/code-lists/1.0.0/PrepaidCollectIndicator#C"
   },
   "@context": {
-    "cargo": "https://onerecord.iata.org/ns/cargo#",
-    "coreCodeLists": "https://onerecord.iata.org/ns/coreCodeLists#"
+    "cargo": "https://onerecord.iata.org/ns/cargo/3.1.1#",
+    "code-lists": "https://onerecord.iata.org/ns/code-lists/1.0.0/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
   }
 }
